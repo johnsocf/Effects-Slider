@@ -1,0 +1,50 @@
+.slider {
+	padding: 0px;
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.slider ul {
+	padding: 0px;
+	list-style: none;
+	margin: 0px;
+	position: relative;
+}
+
+.slider ul li img {
+	position: relative;
+	z-index: 1;
+}
+
+.slider .active {
+	z-index: 10;
+}
+
+.slider .reset {
+	z-index: 3;
+}
+
+.slider span {
+	display: none;
+	color: #fff;
+	bottom: 0px;
+	padding: 10px;
+	width: 100%;
+	left: 0px;
+	position: absolute!important;
+	z-index: 555; background: url('i/comment-bg.png');
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.control_active {
+	background: url('i/active.png') no-repeat!important;
+	height: 20px!important;
+	margin-top: 9px!important;
+}
+
+.control_hover {
+	background: url('i/active.png') top no-repeat!important;
+	height: 20px!important;
+	margin-top: 9px!important;
+}
